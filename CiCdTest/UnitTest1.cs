@@ -22,7 +22,7 @@ namespace CiCdTest
             resultOldCar.Should().Be("old");
             resultModernCar.Should().Be("modern");
             resultNewCar.Should().Be("new");
-            //new
+            //new1
         }
     }
 }

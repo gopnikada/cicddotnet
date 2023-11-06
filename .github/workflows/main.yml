@@ -1,0 +1,9 @@
+name: AutoTest
+on: push
+jobs:
+  test-defaults:
+    runs-on: ubuntu-18.04
+    name: test
+    steps:
+      - name: The generated report
+        run: dotnet test  

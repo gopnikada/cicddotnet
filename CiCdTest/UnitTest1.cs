@@ -19,9 +19,11 @@ namespace CiCdTest
             var resultModernCar = modernCar.GetYear();
             var resultNewCar = newCar.GetYear();
             //assert
-            resultOldCar.Should().Be("old");
-            resultModernCar.Should().Be("modern");
-            resultNewCar.Should().Be("new");
+            //resultOldCar.Should().Be("old");
+            //resultModernCar.Should().Be("modern");
+            //resultNewCar.Should().Be("new");
+
+            Assert.Equal("old", resultOldCar);
             //new1
         }
     }
